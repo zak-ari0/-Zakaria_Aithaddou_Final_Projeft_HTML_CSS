@@ -1,0 +1,41 @@
+
+    .About{
+
+        background-color: #FFFAF3 ;
+        padding: 4rem 7rem;
+        @include myFlex(flex, center, center, 1.5rem, row) ;
+        .aboutLeft img{
+            width: 41vw;
+            height: 58vh;
+        }
+        .aboutRight{
+            @include myFlex(flex, center, start, 1rem, column) ;
+            height: 57vh;
+            h3{
+                font-weight: 600;
+                font-size: 28px;
+                color: #433F39;
+                font-family: "Satisfy", cursive;
+               
+            }
+            .italic{
+                font-size: 16px;
+                font-weight: 400;
+                font-style: italic;
+              
+            }
+            .aboutRightMain{
+                @include myFlex(flex, none, none, none, column) ;
+                div i{
+                    color: $main-color;
+                    font-size: 20px;
+                    padding-right: 10px;
+                }
+                div{
+                    display: flex;
+                    padding: unset;
+                    margin: unset;
+                }
+            }
+        }
+    }

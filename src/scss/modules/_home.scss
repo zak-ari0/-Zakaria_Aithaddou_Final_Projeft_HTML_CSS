@@ -36,7 +36,7 @@
     font-weight: 600;
 }
 .car-buttons{
-    @include myFlex(flex, none, none, 15px)
+    @include myFlex(flex, none, none, 15px, row)
 }
 .car-buttons :hover{
     background-color: $main-color;

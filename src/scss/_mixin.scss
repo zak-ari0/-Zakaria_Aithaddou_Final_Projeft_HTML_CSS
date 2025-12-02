@@ -1,6 +1,7 @@
-@mixin myFlex($flex, $items, $justify, $space){
+@mixin myFlex($flex, $items, $justify, $space, $direction){
     display: $flex ;
     align-items: $items ;
     justify-content: $justify ;
     gap: $space ;
+    flex-direction: $direction;
 }

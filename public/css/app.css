@@ -11954,6 +11954,56 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.About {
+  background-color: #FFFAF3;
+  padding: 4rem 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-direction: row;
+}
+.About .aboutLeft img {
+  width: 41vw;
+  height: 58vh;
+}
+.About .aboutRight {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  flex-direction: column;
+  height: 57vh;
+}
+.About .aboutRight h3, .About .aboutRight .h3 {
+  font-weight: 600;
+  font-size: 28px;
+  color: #433F39;
+  font-family: "Satisfy", cursive;
+}
+.About .aboutRight .italic {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+.About .aboutRight .aboutRightMain {
+  display: flex;
+  align-items: none;
+  justify-content: none;
+  gap: none;
+  flex-direction: column;
+}
+.About .aboutRight .aboutRightMain div i {
+  color: #FFB03B;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.About .aboutRight .aboutRightMain div {
+  display: flex;
+  padding: unset;
+  margin: unset;
+}
+
 .car-img {
   width: 100%;
   height: 100vh;
@@ -12001,6 +12051,7 @@ textarea.form-control-lg {
   align-items: none;
   justify-content: none;
   gap: 15px;
+  flex-direction: row;
 }
 
 .car-buttons :hover {
@@ -12035,9 +12086,11 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   gap: none;
+  flex-direction: row;
   height: 9vh;
   background-color: transparent;
   padding-inline: 7rem;
+  background: rgba(0, 0, 0, 0.46);
 }
 
 .topNav {
@@ -12045,9 +12098,11 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   gap: none;
+  flex-direction: row;
   height: 6vh;
   background-color: transparent;
   padding-inline: 7rem;
+  background: rgba(0, 0, 0, 0.68);
 }
 
 .topNavLeft {
@@ -12055,6 +12110,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: none;
   gap: 20px;
+  flex-direction: row;
 }
 
 .topNavLeft div i {
@@ -12089,6 +12145,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   gap: 2.5rem;
+  flex-direction: row;
 }
 
 .links a {
@@ -12101,6 +12158,10 @@ textarea.form-control-lg {
 .links :hover {
   color: #FFB03B;
   transition: 0.5s;
+}
+
+body {
+  height: 500vh;
 }
 
 /*# sourceMappingURL=app.css.map */

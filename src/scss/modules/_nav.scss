@@ -5,24 +5,23 @@
 }
 .NAV{
     width: 100%;
-
-    
-
 }
 .NavBar{
-    @include myFlex(flex, center, space-between, none) ;
+    @include myFlex(flex, center, space-between, none, row) ;
     height: 9vh;
     background-color: transparent;
     padding-inline: 7rem;
+    background: rgba(0, 0, 0, 0.46);
 }
 .topNav{
-    @include myFlex(flex, center, space-between, none) ;
+    @include myFlex(flex, center, space-between, none, row) ;
     height: 6vh;
     background-color: transparent;
     padding-inline: 7rem;
+    background: rgba(0, 0, 0, 0.68);
 }
 .topNavLeft{
-    @include myFlex(flex, center, none, 20px) ;
+    @include myFlex(flex, center, none, 20px, row) ;
 }
 .topNavLeft div i{
     color: $main-color;
@@ -49,7 +48,7 @@
 }
 
 .links {
-    @include myFlex(flex, center, space-between, 2.5rem)
+    @include myFlex(flex, center, space-between, 2.5rem, row)
 }
 .links a{
     text-decoration: none;
@@ -60,4 +59,7 @@
 .links  :hover {
     color: $main-color;
     transition: .5s;
+}
+body{
+    height: 500vh;
 }
