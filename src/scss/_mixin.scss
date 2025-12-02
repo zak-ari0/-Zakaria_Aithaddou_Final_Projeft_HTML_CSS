@@ -1,0 +1,6 @@
+@mixin myFlex($flex, $items, $justify, $space){
+    display: $flex ;
+    align-items: $items ;
+    justify-content: $justify ;
+    gap: $space ;
+}

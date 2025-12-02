@@ -1,0 +1,54 @@
+.car-img {
+    width: 100%;
+    height: 100vh;
+}
+.car-img img{
+    width: 100%;
+    height: 100vh;
+   
+}
+.car-bla h1{
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+    font-size: 45px;
+    
+}
+.car-bla{
+    transition: .5s;
+}
+.car-bla p{
+    width: 55rem;
+    height: 5rem;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left !important;
+}
+.car-bla h1 span{
+    color: $main-color;
+}
+.car-buttons button{
+    padding: 8px 30px;
+    border: solid 2px $main-color;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.car-buttons{
+    @include myFlex(flex, none, none, 15px)
+}
+.car-buttons :hover{
+    background-color: $main-color;
+    transition: .5s;
+}
+.car-bla{
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.carousel-item img{
+    filter: brightness(60%); 
+     object-fit: cover;
+}

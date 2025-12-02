@@ -1,14 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/css/app.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Pacifico&family=Playwrite+CZ:wght@100..400&family=Playwrite+NO:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./public/css/app.css" />
     <title>Delicious</title>
-</head>
-<body>
-    <nav>
-        
+  </head>
+  <body>
+    <nav class="NAV fixed-top">
+      <div class="topNav">
+        <div class="topNavLeft">
+          <div><i class="bi bi-phone"></i>+1 5589 55488 55</div>
+          <div><i class="bi bi-clock"></i>Mon-Sat: 11:00 AM - 23:00 PM</div>
+        </div>
+        <div class="topNavRight">
+          <button>Book a table</button>
+        </div>
+      </div>
+      <div class="NavBar">
+        <div class="logo">
+          <a class="navbar-brand" href="#">Delicious</a>
+        </div>
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Menu</a>
+          <a href="#">Specials</a>
+          <a href="#">Events</a>
+          <a href="#">Chefs</a>
+          <a href="#">Gallery</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
     </nav>
-</body>
+    <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img
+            src="./public/images/hero-carousel/hero-carousel-1.jpg"
+            class="d-block car-img"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center align-items-center car-bla"
+          >
+            <h1 class="display-4"><span>Delicious </span> Restaurant</h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat..
+            </p>
+            <div class="car-buttons">
+              <button>Our Menu</button>
+              <button>Book a table</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="./public/images/hero-carousel/hero-carousel-2.jpg"
+            class="d-block car-img"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center align-items-center car-bla"
+          >
+            <h1 class="display-4">At vero eos et accusamus</h1>
+            <p class="lead">
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam et aut officiis debitis aut.
+            </p>
+            <div class="car-buttons">
+              <button>Our Menu</button>
+              <button>Book a table</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="./public/images/hero-carousel/hero-carousel-3.jpg"
+            class="d-block car-img"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center align-items-center car-bla"
+          >
+            <h1 class="display-4">Temporibus autem quibusdam</h1>
+            <p class="lead">
+              Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+              voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+              magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste
+              natus error sit voluptatem accusantium.
+            </p>
+            <div class="car-buttons">
+              <button>Our Menu</button>
+              <button>Book a table</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
 </html>
