@@ -12052,6 +12052,7 @@ textarea.form-control-lg {
   justify-content: none;
   gap: 15px;
   flex-direction: row;
+  transition: 0.5s;
 }
 
 .car-buttons :hover {
@@ -12157,11 +12158,107 @@ textarea.form-control-lg {
 
 .links :hover {
   color: #FFB03B;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 body {
   height: 500vh;
+}
+
+.whyUs .whyUsTop {
+  padding-bottom: 5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: none;
+  flex-direction: column;
+}
+.whyUs .whyUsTop h6, .whyUs .whyUsTop .h6 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #FFB03B;
+  background-color: #fff7eb;
+  padding: 7px 20px;
+  border-radius: 30px;
+}
+.whyUs .whyUsTop h2, .whyUs .whyUsTop .h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  font-weight: 600;
+}
+.whyUs .whyUsTop h2 span, .whyUs .whyUsTop .h2 span {
+  color: #FFB03B;
+}
+.whyUs {
+  padding-block: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: none;
+  flex-direction: column;
+}
+.whyUs .whyUsMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  flex-direction: row;
+  padding-inline: 6rem;
+}
+.whyUs .whyUsMain .whycon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  width: 26rem;
+  height: 17rem;
+}
+.whyUs .whyUsMain .whycon h2, .whyUs .whyUsMain .whycon .h2 {
+  color: #FFB03B;
+  font-size: 26px;
+  font-weight: 700;
+}
+.whyUs .whyUsMain .whycon h3, .whyUs .whyUsMain .whycon .h3 {
+  color: black;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: "Satisfy", cursive;
+}
+.whyUs .whyUsMain .whycon p {
+  color: rgb(138, 138, 138);
+  font-size: 14px;
+}
+.whyUs .whyUsMain .whycon .whyCard {
+  padding-inline: 2rem;
+  height: 17rem;
+  display: flex;
+  align-items: none;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  transition: 0.5s !important;
+}
+.whyUs .whyUsMain .whycon :hover h2, .whyUs .whyUsMain .whycon :hover .h2, .whyUs .whyUsMain .whycon :hover h3, .whyUs .whyUsMain .whycon :hover .h3, .whyUs .whyUsMain .whycon :hover p {
+  position: relative;
+  top: -20px;
+}
+.whyUs .whyUsMain .whycon :hover {
+  background-color: #FFB03B;
+}
+.whyUs .whyUsMain .whycon :hover h2, .whyUs .whyUsMain .whycon :hover .h2,
+.whyUs .whyUsMain .whycon :hover h3,
+.whyUs .whyUsMain .whycon :hover .h3,
+.whyUs .whyUsMain .whycon :hover p {
+  color: white;
+}
+
+h2, .h2, h3, .h3, p {
+  position: relative;
+  top: 0;
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=app.css.map */
