@@ -12004,6 +12004,10 @@ textarea.form-control-lg {
   margin: unset;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .car-img {
   width: 100%;
   height: 100vh;
@@ -12070,6 +12074,112 @@ textarea.form-control-lg {
 .carousel-item img {
   filter: brightness(60%);
   object-fit: cover;
+}
+
+.Menu-top {
+  padding-bottom: 5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: none;
+  flex-direction: column;
+}
+.Menu-top h6, .Menu-top .h6 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #FFB03B;
+  background-color: #fff7eb;
+  padding: 7px 20px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+.Menu-top h2, .Menu-top .h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  font-weight: 600;
+}
+.Menu-top h2 span, .Menu-top .h2 span {
+  color: #FFB03B;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: row;
+  padding-bottom: 4rem;
+}
+.categories a {
+  text-decoration: none;
+  font-family: "Satisfy", cursive;
+  color: #7f7f7f;
+  transition: 0.3s;
+}
+.categories a:hover {
+  color: #FFB03B;
+}
+.categories a:focus {
+  color: #FFB03B;
+}
+
+.mainMenu {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: none;
+  justify-content: space-between;
+  gap: none;
+  flex-direction: row;
+  padding-inline: 5rem;
+}
+
+.menu-item {
+  width: 43vw;
+  padding-bottom: 3rem;
+  display: flex;
+  align-items: start;
+  justify-content: none;
+  gap: 20px;
+  flex-direction: row;
+  position: relative;
+}
+.menu-item .menu-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #eee;
+}
+.menu-item .menu-content {
+  width: 100%;
+}
+.menu-item .menu-content h3, .menu-item .menu-content .h3 {
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  padding-right: 10px;
+  /* dotted line */
+}
+.menu-item .menu-content h3::after, .menu-item .menu-content .h3::after {
+  content: "";
+  display: block;
+  border-bottom: 2px dotted #ccc;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+}
+.menu-item .menu-content p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.menu-item .menu-price {
+  font-weight: 700;
+  color: #FFB03B;
+  margin-left: 10px;
+  white-space: nowrap;
 }
 
 * {
