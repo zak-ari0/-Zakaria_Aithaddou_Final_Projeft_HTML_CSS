@@ -1,0 +1,24 @@
+#carousel2{
+    background-image: url(../../../public/images/events-bg.jpg);
+}
+.carousel-indicators-round [data-bs-target] {
+  width: 12px; 
+  height: 12px;
+  border-radius: 50%; 
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.carousel-indicators-round .active {
+  opacity: 1;
+  background-color: $main-color; 
+}
+.carousel2-img{
+      width: 60vw;
+    height: 50vh;
+}
+
+.carousel2-img img{
+    width: 60vw;
+    height: 50vh;
+}

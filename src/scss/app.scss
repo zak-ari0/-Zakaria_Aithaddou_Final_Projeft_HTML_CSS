@@ -3,16 +3,6 @@
 @import '../../node_modules/bootstrap/scss/variables' ;
 
 
-$main-color: #FFB03B ;
-
-$myNewColors: (
-    "": $main-color
-) ;
-
-$theme-colors: map-merge($theme-colors, $myNewColors) ;
-
-
-
 
 
 
