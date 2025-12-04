@@ -1,0 +1,78 @@
+footer {
+  height: 35vh;
+  background-color: #1e160d;
+  @include myFlex(flex, center, center, none, column);
+  .footertop {
+    padding-top: 30px;
+    border-bottom: 1px lightgray solid;
+    padding-bottom: 2rem;
+    padding-right: 10rem;
+    width: 80%;
+    @include myFlex(flex, center, space-between, none, row);
+    .footerBox {
+      width: 15rem;
+      @include myFlex(flex, none, none, 20px, row);
+      .footerLogo {
+        i {
+          font-size: 25px;
+          font-weight: 600;
+          color: $main-color;
+        }
+      }
+      .footerInfo {
+        h6 {
+          font-family: "Satisfy", cursive;
+          font-weight: 600;
+          color: white;
+        }
+        p {
+          color: white;
+          font-size: 15px;
+          font-weight: 600;
+        }
+      }
+    }
+    .footerSocial {
+      h6 {
+        font-family: "Satisfy", cursive;
+        font-weight: 600;
+        color: white;
+      }
+      .icons {
+                @include myFlex(flex, none, none, 10px, row);
+        div {
+          border: solid #8f8b86 1px;
+          border-radius: 50%;
+          padding: 7px 10px;
+          transition: .3s;
+          cursor: pointer;
+          i {
+            color: #8f8b86;
+            font-size: 17px;
+            transition: .3s;
+          }
+
+        }
+        div:hover{
+            border-color: $main-color;
+            i{
+                color: $main-color;
+            }
+        }
+      }
+    }
+  }
+  .footerbottom{
+    padding-top: 20px;
+    text-align: center;
+    p{
+        color: white;
+        font-size: 14px;
+        line-height: 10px;
+        a{
+            color: $main-color;
+            text-decoration: none;
+        }
+    }
+  }
+}

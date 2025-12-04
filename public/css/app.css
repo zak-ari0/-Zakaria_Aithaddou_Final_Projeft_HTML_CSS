@@ -12323,6 +12323,94 @@ textarea.form-control-lg {
   width: 50vw;
 }
 
+footer {
+  height: 35vh;
+  background-color: #1e160d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: none;
+  flex-direction: column;
+}
+footer .footertop {
+  padding-top: 30px;
+  border-bottom: 1px lightgray solid;
+  padding-bottom: 2rem;
+  padding-right: 10rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: none;
+  flex-direction: row;
+}
+footer .footertop .footerBox {
+  width: 15rem;
+  display: flex;
+  align-items: none;
+  justify-content: none;
+  gap: 20px;
+  flex-direction: row;
+}
+footer .footertop .footerBox .footerLogo i {
+  font-size: 25px;
+  font-weight: 600;
+  color: #FFB03B;
+}
+footer .footertop .footerBox .footerInfo h6, footer .footertop .footerBox .footerInfo .h6 {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+  color: white;
+}
+footer .footertop .footerBox .footerInfo p {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+footer .footertop .footerSocial h6, footer .footertop .footerSocial .h6 {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+  color: white;
+}
+footer .footertop .footerSocial .icons {
+  display: flex;
+  align-items: none;
+  justify-content: none;
+  gap: 10px;
+  flex-direction: row;
+}
+footer .footertop .footerSocial .icons div {
+  border: solid #8f8b86 1px;
+  border-radius: 50%;
+  padding: 7px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+footer .footertop .footerSocial .icons div i {
+  color: #8f8b86;
+  font-size: 17px;
+  transition: 0.3s;
+}
+footer .footertop .footerSocial .icons div:hover {
+  border-color: #FFB03B;
+}
+footer .footertop .footerSocial .icons div:hover i {
+  color: #FFB03B;
+}
+footer .footerbottom {
+  padding-top: 20px;
+  text-align: center;
+}
+footer .footerbottom p {
+  color: white;
+  font-size: 14px;
+  line-height: 10px;
+}
+footer .footerbottom p a {
+  color: #FFB03B;
+  text-decoration: none;
+}
+
 .gallery {
   margin-block: 5rem;
 }
