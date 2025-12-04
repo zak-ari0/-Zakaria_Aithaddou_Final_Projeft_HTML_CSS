@@ -12010,6 +12010,123 @@ textarea.form-control-lg {
   background-color: #FFB03B;
 }
 
+.chefs .chefsTop {
+  padding-bottom: 5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: none;
+  flex-direction: column;
+}
+.chefs .chefsTop h6, .chefs .chefsTop .h6 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #FFB03B;
+  background-color: #fff7eb;
+  padding: 7px 20px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+.chefs .chefsTop h2, .chefs .chefsTop .h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  font-weight: 600;
+}
+.chefs .chefsTop h2 span, .chefs .chefsTop .h2 span {
+  color: #FFB03B;
+}
+.chefs .chefsMain {
+  display: flex;
+  align-items: none;
+  justify-content: center;
+  gap: 40px;
+  flex-direction: row;
+}
+.chefs .chefsMain .chefCard {
+  position: relative;
+}
+.chefs .chefsMain .chefCard .image {
+  width: 27vw;
+}
+.chefs .chefsMain .chefCard .image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.chefs .chefsMain .chefCard .infoBox {
+  position: absolute;
+  bottom: -40px;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 15px 20px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.chefs .chefsMain .chefCard .infoBox h5, .chefs .chefsMain .chefCard .infoBox .h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: unset;
+  padding-bottom: 5px;
+}
+.chefs .chefsMain .chefCard .infoBox p {
+  font-size: 15px;
+  color: #9aa0a6;
+  margin: unset;
+  border-top: solid 1px;
+  width: 3rem;
+  padding-top: 10px;
+}
+.chefs .chefsMain .chefCard .infoBox .icons {
+  margin-top: 6px;
+  display: flex;
+  gap: 12px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.chefs .chefsMain .chefCard .infoBox .icons i {
+  font-size: 0.9rem;
+  color: rgb(190, 189, 189);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.chefs .chefsMain .chefCard .infoBox .icons i:hover {
+  color: #000;
+}
+.chefs .chefsMain .col-12 {
+  padding-bottom: 40px;
+}
+
+.contact {
+  margin-block: 7rem;
+}
+.contact .contactTop {
+  padding-bottom: 5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: none;
+  flex-direction: column;
+}
+.contact .contactTop h6, .contact .contactTop .h6 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #FFB03B;
+  background-color: #fff7eb;
+  padding: 7px 20px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+.contact .contactTop h2, .contact .contactTop .h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  font-weight: 600;
+}
+.contact .contactTop h2 span, .contact .contactTop .h2 span {
+  color: #FFB03B;
+}
 .image-container {
   width: 40vw;
   height: 70vh;

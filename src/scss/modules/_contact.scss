@@ -1,0 +1,33 @@
+.contact{
+    margin-block: 7rem;
+    .contactTop{
+        padding-bottom: 5rem;
+    text-align: center;
+    @include myFlex(flex, center, center, none, column);
+    h6 {
+      font-size: 15px;
+      font-weight: 600;
+      color: $main-color;
+      background-color: #fff7eb;
+      padding: 7px 20px;
+      border-radius: 30px;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-family: "Satisfy", cursive;
+      font-size: 30px;
+      font-weight: 600;
+      span {
+        color: $main-color;
+      }
+    }
+    }
+    .contactMain{
+        .map{
+
+        }
+        .contactMessage{
+            
+        }
+    }
+}
