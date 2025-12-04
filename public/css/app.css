@@ -12127,6 +12127,135 @@ textarea.form-control-lg {
 .contact .contactTop h2 span, .contact .contactTop .h2 span {
   color: #FFB03B;
 }
+.contact .contactMain {
+  display: flex;
+  align-items: none;
+  justify-content: none;
+  gap: 2rem;
+  flex-direction: column;
+}
+.contact .contactMain .contactMessage {
+  display: flex;
+  align-items: none;
+  justify-content: center;
+  gap: 3rem;
+  flex-direction: row;
+}
+.contact .contactMain .contactMessage .contactInputs {
+  height: 70vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.contact .contactMain .contactMessage .contactInputs .Name-Email {
+  width: 55vw;
+  height: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.7rem;
+}
+.contact .contactMain .contactMessage .contactInputs .Name-Email input {
+  padding-inline: 10px;
+  border: 1px solid lightgrey;
+  outline: none;
+  transition: 0.4s;
+}
+.contact .contactMain .contactMessage .contactInputs .Name-Email input:focus {
+  border-color: #FFB03B;
+}
+.contact .contactMain .contactMessage .contactInputs .Sub {
+  width: 55vw;
+  height: 3rem;
+}
+.contact .contactMain .contactMessage .contactInputs .Sub input {
+  width: 100%;
+  height: 3rem;
+  padding-inline: 10px;
+  border: 1px solid lightgrey;
+  outline: none;
+  transition: 0.4s;
+}
+.contact .contactMain .contactMessage .contactInputs .Sub input:focus {
+  border-color: #FFB03B;
+}
+.contact .contactMain .contactMessage .contactInputs .Mess {
+  width: 55vw;
+  height: 17rem;
+}
+.contact .contactMain .contactMessage .contactInputs .Mess textarea {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+  border: 1px solid lightgray;
+  outline: none;
+  transition: 0.4s;
+}
+.contact .contactMain .contactMessage .contactInputs .Mess textarea:focus {
+  border-color: #FFB03B;
+}
+.contact .contactMain .contactMessage .contactInputs .ConButt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: none;
+  flex-direction: row;
+}
+.contact .contactMain .contactMessage .contactInputs .ConButt button {
+  padding: 0.8rem 3rem;
+  background-color: #FFB03B;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.contact .contactMain .contactMessage .GetInTouch {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: none;
+  flex-direction: column;
+  width: 25vw;
+  height: 60vh;
+}
+.contact .contactMain .contactMessage .GetInTouch .touchBlabla {
+  width: 80%;
+}
+.contact .contactMain .contactMessage .GetInTouch .touchBlabla h3, .contact .contactMain .contactMessage .GetInTouch .touchBlabla .h3 {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+  width: 100%;
+}
+.contact .contactMain .contactMessage .GetInTouch .touchBlabla p {
+  width: 100%;
+}
+.contact .contactMain .contactMessage .GetInTouch .touchInfos {
+  width: 80%;
+}
+.contact .contactMain .contactMessage .GetInTouch .touchInfos .info {
+  border-bottom: solid 1px darkgray;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+  flex-direction: row;
+}
+.contact .contactMain .contactMessage .GetInTouch .touchInfos .info .infoI i {
+  position: relative;
+  top: -2rem;
+  font-size: 25px;
+  color: #FFB03B;
+}
+.contact .contactMain .contactMessage .GetInTouch .touchInfos .info .infoT h5, .contact .contactMain .contactMessage .GetInTouch .touchInfos .info .infoT .h5 {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+}
+.contact .contactMain .contactMessage .GetInTouch .touchInfos .info .infoT p {
+  color: darkgrey;
+  font-size: 15px;
+}
+
 .image-container {
   width: 40vw;
   height: 70vh;
@@ -12516,10 +12645,6 @@ html {
 .links :hover {
   color: #FFB03B;
   transition: 0.2s;
-}
-
-body {
-  height: 1000vh;
 }
 
 .specialsTop {
