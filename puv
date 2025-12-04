@@ -11924,7 +11924,6 @@ textarea.form-control-lg {
   background-image: url(../../../public/images/events-bg.jpg);
   background-size: cover;
   background-position: 40%;
-  margin-top: 5rem;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -11941,40 +11940,8 @@ textarea.form-control-lg {
   background-color: #ff6600;
 }
 
-.carousel2-content .aboutRightUp .price {
-  border-bottom: #ff6600 solid 2px;
-  width: 4rem;
-}
 .carousel2-content .aboutRightUp h3, .carousel2-content .aboutRightUp .h3 {
   color: white;
-}
-.carousel2-content .aboutRightUp .qbl-price {
-  font-family: "Satisfy", cursive;
-  font-weight: 600;
-}
-.carousel2-content .aboutRightUp p {
-  color: white;
-}
-.carousel2-content .aboutRightMain {
-  width: 50vw;
-}
-.carousel2-content .aboutRightMain div {
-  display: flex;
-  align-items: none;
-  justify-content: none;
-  gap: 5px;
-  flex-direction: row;
-}
-.carousel2-content .aboutRightMain p {
-  color: white;
-}
-.carousel2-content .aboutRightMain i {
-  color: #FFB03B;
-  font-size: 18px;
-}
-.carousel2-content p {
-  color: white;
-  width: 50vw;
 }
 
 html {
@@ -12418,4 +12385,4 @@ h2, .h2, h3, .h3, p {
   transition: 0.5s;
 }
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=puv.map */

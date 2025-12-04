@@ -1,24 +1,67 @@
+.image-container{
+    width: 40vw;
+    height: 70vh;
+}
+.carousel-container{
+    gap: 30px;
+    padding-top: 6rem;
+}
+
+
+
 #carousel2{
     background-image: url(../../../public/images/events-bg.jpg);
+    background-size: cover;
+    background-position: 40%;
+    margin-top: 5rem;
 }
-.carousel-indicators-round [data-bs-target] {
-  width: 12px; 
+
+.carousel-indicators [data-bs-target] {
+  width: 12px;          
   height: 12px;
-  border-radius: 50%; 
-  background-color: #fff;
+  border-radius: 50%;  
+  background-color: #fff; 
   opacity: 0.5;
+  margin-bottom: 3rem;
 }
-
-.carousel-indicators-round .active {
+ 
+.carousel-indicators .active {
   opacity: 1;
-  background-color: $main-color; 
+  background-color: #ff6600;
 }
-.carousel2-img{
-      width: 60vw;
-    height: 50vh;
-}
+.carousel2-content{
+  .aboutRightUp{
+    .price{
+      border-bottom: #ff6600 solid 2px;
+      width: 4rem;
+    }
+    h3{
+      color: white;
+    }
+    .qbl-price{
+      font-family: "Satisfy", cursive;
+      font-weight: 600;
+    }
+    p{
+      color: white;
+    }
+  }
+  .aboutRightMain {
+    width: 50vw;
+    div{
+      @include myFlex(flex, none, none, 5px, row) ;
 
-.carousel2-img img{
-    width: 60vw;
-    height: 50vh;
+    }
+    p{
+      color: white;
+    }
+    i{
+      color: $main-color;
+      font-size: 18px;
+    }
+  }
+  p{
+    color: white;
+    width: 50vw ;
+  }
 }
